@@ -1,0 +1,495 @@
+
+:root {
+    --desaturated-red: hsl(0, 36%, 70%);
+    --soft-red: hsl(0, 93%, 68%);
+    --dark-grayish-red: hsl(0, 6%, 24%);
+    --first-gradient: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    --second-gradient: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+.main__font {
+    font-size: 16px;
+}
+
+.page__body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.page__header {
+    width: 100%;
+    height: 4.47rem;
+}
+
+.logo__wrapper {
+    width: fit-content;
+    padding-top: 1.6rem;
+    padding-left: 1.6rem;
+}
+
+.header__logo {
+    width: 5.4rem;
+}
+
+.subheader__image--wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.subheader__image {
+    width: 100%;
+    height: 100%;
+}
+
+.page__slogan {
+    width: auto;
+    height: 10rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gradient__slogan {
+    padding-top: 3.45rem;
+    letter-spacing: 0.6rem;
+    color: var(--desaturated-red);
+    font-weight: 300;
+}
+
+.slogan__size {
+    font-size: 2rem;
+}
+
+.slogan {
+    padding-top: 0.25rem;
+    letter-spacing: 0.68rem;
+    font-weight: 600;
+}
+
+.description__wrapper {
+    width: auto;
+    height: 6rem;
+}
+
+.page__description {
+    color: black;
+    padding-top: 1rem;
+    font-size: 0.74rem;
+    text-align: center;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    line-height: 1.2rem;
+    color: var(--desaturated-red);
+}
+
+.email__input--wrapper {
+    width: auto;
+    height: 5rem;
+}
+
+.email__input {
+    border: 1px solid var(--desaturated-red);
+    height: 2.3rem;
+    width: 80vw;
+    border-radius: 100px;
+    margin-left: 1.8rem;
+    margin-top: 1.2rem;
+    padding-left: 1rem;
+    outline: none;
+}
+
+.icon__error {
+    margin-left: 64%;
+    position: relative;
+    top: -2.4rem;
+}
+
+::placeholder {
+    color: var(--desaturated-red);
+    opacity: 1;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.email__submit {
+    position: relative;
+    top: -2.7rem;
+    left: 5%;
+    height: 2.7rem;
+    border-radius: 100px;
+    background: var(--second-gradient);
+    border: var(--soft-red);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    outline: none;
+}
+ 
+.result {
+    margin-top: -2.2rem;
+    padding-left: 3rem;
+    font-size: 0.8rem;
+}
+
+.page__footer {
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    width: 15rem;
+    padding: 0.4rem 0;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+    line-height: 1.2rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 324px) {
+    .email__submit {
+        left: 5%;
+    }
+}
+
+@media screen and (min-width: 334px) {
+    .email__submit {
+        left: 5%;
+    }
+}
+
+@media screen and (min-width: 344px) {
+    .email__submit {
+        left: 6%;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    .email__submit {
+        left: 5%;
+    }
+
+    .icon__error {
+        margin-left: 66%;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .icon__error {
+        margin-left: 70%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .email__input {
+        width: 73%
+    }
+
+    .email__submit {
+        left: 1%;
+    }
+
+    .icon__error {
+        margin-left: 60%;
+    }
+}
+
+@media screen and (min-width: 563px) {
+    .icon__error {
+        margin-left: 70vw;
+    }
+}
+
+@media screen and (min-width: 746px) {
+    .icon__error {
+        margin-left: 72%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .page__header {
+        width: 50%;
+        height: 6.5rem;
+    }
+
+    .logo__wrapper {
+        padding-top: 7vh;
+    }
+
+    .header__logo {
+        width: 90%;
+        margin-left: 20%;
+    }
+
+    .subheader__image--wrapper {
+        width: 50%;
+        height: auto;
+        margin-left: 50%;
+        margin-top: -6.5rem;
+    }
+
+    .page__slogan {
+        padding-left: 3.5rem;
+        padding-bottom: 6%;
+        width: 41.7%;
+        margin-top: -25rem;
+        text-align: left;
+    }
+
+    .slogan__size {
+        font-size: 3.5rem;
+    }
+
+    .description__wrapper {
+        width: 50%;
+    }
+
+    .page__description {
+        text-align: left;
+        font-size: 1rem;
+        margin-left: 8%;
+        margin-top: 5vh;
+    }
+
+    .email__input--wrapper {
+        width: 50%;
+    }
+
+    .email__input {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 3rem;
+    }
+
+    .email__submit {
+        left: 1%;
+    }
+
+    .email__submit:hover {
+        cursor: pointer;
+        filter: brightness(120%);
+        box-shadow: -4px 10px 20px 5px var(--desaturated-red);
+    }
+
+    .result {
+        margin-left: 10.5%;
+    }
+
+    .page__footer {
+        margin-left: 10.5%;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (min-width: 782px) {
+    .email__input {
+        margin-top: 3rem;
+    }
+
+    .page__footer {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width: 797px) {
+    .email__submit {
+        left: 3%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .result {
+        margin-left: 11%;
+    }
+}
+
+@media screen and (min-width: 864px) {
+    .email__input {
+        margin-left: 7.5vw;
+    }
+
+    .result {
+        margin-left: 4vw;
+    }
+}
+
+@media screen and (min-width: 889px) {
+    .email__input {
+        margin-left: 8vw;
+    }
+
+    .result {
+        margin-left: 4.7vw;
+    }
+}
+
+@media screen and (min-width: 890px) {
+    .icon__error {
+        margin-left: 72%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .page__slogan {
+        margin-top: -30rem;
+    }
+}
+
+@media screen and (min-width: 962px) {
+    .email__input {
+        margin-top: 1rem;
+    }
+    
+    .page__footer {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 1012px) {
+    .email__input {
+        margin-left: 7vw;
+    }
+
+    .result {
+        margin-left: 4.3vw;
+    }
+}
+
+@media screen and (min-width: 1020px){
+    .page__slogan {
+        margin-top: -35rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .page__description {
+        margin-left: 4vw;
+    }
+
+    .icon__error {
+        margin-left: 36vw;
+    }
+}
+
+@media screen and (min-width: 1130px) {
+    .page__slogan {
+        margin-top: -40rem;
+    }
+}
+
+@media screen and (min-width: 1047px) {
+    .icon__error {
+        margin-left: 36.5vw;
+    }
+}
+
+@media screen and (min-width: 1083px) {
+    .page__description {
+        margin-left: 3.5vw;
+    }
+
+    .email__input {
+        margin-left: 6vw;
+    }
+
+    .icon__error {
+        margin-left: 35vw;
+    }
+
+    .result {
+        margin-left: 3.5vw;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .page__slogan {
+        margin-top: -45rem;
+    }
+}
+
+@media screen and (min-width: 1349px) {
+    .page__description {
+        margin-top: 0.5rem;
+        margin-left: 2.5rem;
+    }
+
+    .email__input {
+        margin-left: 4.3rem;
+    }
+
+    .result {
+        margin-left: 2.4rem;
+    }
+}
+
+@media screen and (min-width: 1377px) {
+    .page__description {
+        margin-left: 2.5vw;
+    }
+
+    .email__input {
+        margin-left: 4.5vw;
+    }
+
+    .result {
+        margin-left: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 800px) and (min-height: 1280px) {
+    .page__header {
+        width: 100%;
+        margin-bottom: -1rem;
+    }
+
+    .logo__wrapper {
+        padding-top: 2rem;
+    }
+
+    .subheader__image--wrapper {
+        margin-top: 1rem;
+        margin-left: 0;
+
+        background-color: red;
+        background-image: url(images/hero-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 33rem;
+    }
+
+    .subheader__image {
+        opacity: 0;
+    }
+
+    .page__slogan {
+        margin-top: 1rem;
+        text-align: center;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .page__description {
+        margin-top: 3rem;
+        text-align: center;
+        padding: 0;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        width: 30rem;
+    }
+
+    .email__input--wrapper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .email__input {
+        margin-top: 1rem;
+    }
+
+    .page__footer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
