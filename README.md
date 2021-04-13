@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/adaptive-mobile-first-base-apparel-page-using-html-css-jquery-pq-Mzfzcu)
 - Live Site URL: [Github Pages](https://icewarrior01.github.io/Base-Apparel-coming-soon-page/)
 
 ## My process
